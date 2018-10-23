@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const calledAsExecutable = require.main === module
 
 const jsonToDot = json =>
