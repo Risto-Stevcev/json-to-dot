@@ -1,0 +1,29 @@
+{
+  "name": "json-to-dot",
+  "version": "1.0.0",
+  "description": "Convert a json graph to the dot format",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Risto-Stevcev/json-to-dot.git"
+  },
+  "keywords": [
+    "json",
+    "dot",
+    "graphviz",
+    "digraph",
+    "graph"
+  ],
+  "author": "Risto Stevcev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Risto-Stevcev/json-to-dot/issues"
+  },
+  "homepage": "https://github.com/Risto-Stevcev/json-to-dot#readme",
+  "devDependencies": {
+    "tape": "^4.9.1"
+  }
+}
