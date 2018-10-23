@@ -25,6 +25,13 @@ jsonToDot({
 })
 ```
 
+You can also pipe a json file directly into it:
+
+```sh
+$ npm install -g json-to-dot
+$ echo "{\"foo\": [\"bar\", \"baz\"], \"baz\": [\"norf\"]}" | json-to-dot
+```
+
 ## Converting dot into an image
 
 You can convert the graph into an actual image using graphviz
