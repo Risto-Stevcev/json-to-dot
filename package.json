@@ -1,8 +1,9 @@
 {
   "name": "json-to-dot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert a json graph to the dot format",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "test": "tape test.js"
   },
