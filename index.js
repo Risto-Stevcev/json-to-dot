@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+require ('babel-polyfill')
+
 const calledAsExecutable = require.main === module
 
 const jsonToDot = json =>
