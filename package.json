@@ -26,5 +26,8 @@
   "homepage": "https://github.com/Risto-Stevcev/json-to-dot#readme",
   "devDependencies": {
     "tape": "^4.9.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
   }
 }
